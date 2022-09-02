@@ -49,5 +49,8 @@ Required: PDF Reader
 
 Required: Excel File (xlsx) Reader
 
+### Setup/zip Password:
+softwares.rubick.org
+
 
 
