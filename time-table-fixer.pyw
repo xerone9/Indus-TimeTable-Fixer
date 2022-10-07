@@ -192,7 +192,7 @@ def excel_working(location):
                 end_time = str(time.value).split(" - ")[1]
                 correct_time = start_time + " - " + end_time
                 teacher = sheet.cell(row, 3)
-        final_selection.append(correct_time + " ----- " + item + " ----- " + str(teacher.value))
+        final_selection.append(str(correct_time) + " ----- " + str(item) + " ----- " + str(teacher.value))
     return final_selection, rooms
 
 
